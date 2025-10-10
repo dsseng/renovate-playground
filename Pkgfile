@@ -91,7 +91,7 @@ vars:
   expat_sha256: 59c31441fec9a66205307749eccfee551055f2d792f329f18d97099e919a3b2f
   expat_sha512: 92dd8a31a88ca73d5d8890be40c231ec037d8d13f6059a88bcf7bfaaa77c1c94dc2874f2dae508c0d077a3798bc006cfe9d7d0a918e08a67149d332c7fce4d23
 
-  # renovate: datasource=git-tags extractVersion=^upstream/(?<version>.*)$ depName=git://salsa.debian.org/clint/fakeroot.git
+  # renovate: datasource=git-tags extractVersion=^upstream/(?<version>.*)$ depName=https://salsa.debian.org/clint/fakeroot.git
   fakeroot_version: 1.36
   fakeroot_sha256: 5128dd5df59955d60453aea1817d2f31c29ffb8b8addcc5d7e200460278a6b0a
   fakeroot_sha512: 1ff4cfe8bd4637652027b9e994ed39bf9885d6ea1608050ff21343dc2977c0607c2af235f51376e086ec88ee975da5cb7115a9888ee9437c927426a2eac1bf4b
@@ -167,7 +167,7 @@ vars:
   libffi_sha256: f3a3082a23b37c293a4fcd1053147b371f2ff91fa7ea1b2a52e335676bac82dc
   libffi_sha512: 76974a84e3aee6bbd646a6da2e641825ae0b791ca6efdc479b2d4cbcd3ad607df59cffcf5031ad5bd30822961a8c6de164ac8ae379d1804acd388b1975cdbf4d
 
-  # renovate datasource=github-releases extractVersion=^libnl(?<version>.*)$ depName=thom311/libnl
+  # renovate datasource=github-tags extractVersion=^libnl(?<version>.*)$ depName=thom311/libnl
   libnl_version: 3_7_0
   libnl_sha256: 9fe43ccbeeea72c653bdcf8c93332583135cda46a79507bfd0a483bb57f65939
   libnl_sha512: 80fbbc079299c90afd2a5eda62e4d4f98bf4ef23958c3ce5101f4ed4d81d783af733213bb3bab15f218555d8460bc2394898f909f4ac024fc27281faec86a041
@@ -269,7 +269,7 @@ vars:
   pkgconf_sha512: 53244f372ea21125a1d97c5b89a84299740b55a66165782e807ed23adab3a07408a1547f1f40156e3060359660d07f49846c8b4893beef10ac9440ab7e8611cc
 
   # renovate: datasource=github-tags versioning=python depName=eliben/pyelftools
-  pyelftools_version: v0.30
+  pyelftools_version: v0.29
   pyelftools_sha256: 24815cbfff9c5f68f5268983f55d969540a087bfdaa73c93f1a88e2a771f80f1
   pyelftools_sha512: 7f4ef37da7fda75125cb95ced2f3084848943592eff7deae7ae917508f1cd5281c96960ee3bbc6e503e71a4e2196622cd68cc67e3df1f4cd99b9b675f14fd58c
 
@@ -288,28 +288,28 @@ vars:
   python_flit_core_sha256: c157ff92c01f4bb169182722ff76aadac113926b729215e91909021aa56e2ea3
   python_flit_core_sha512: ff6df66dfdae6fdf7b277cc3fbb7c9a569103cbe82a3e3ce6f315ec6adec46be8692eba4549a66b3af537d128e6b57ed8f49316b705636466c25674198503643
 
-  # renovate: datasource=github-tags versioning=python depName=gentoo/gpep517
-  python_gpep517_version: v16
+  # renovate: datasource=github-tags extractVersion=^v(?<version>.*)$ versioning=python depName=gentoo/gpep517
+  python_gpep517_version: 16
   python_gpep517_sha256: 17879b79edbb5a21d3dca6cfae997bda8e4c99254caf16616a6ae70d15a43c09
   python_gpep517_sha512: 463c3812f388ea7ef83aaf6b3b90de4036b0a8200038a654621822c02d46627f7adf2ed4c7accf016293f89b8c3a2080d9ac80d2f82caaa3fdd370aa98c4335b
 
   # renovate: datasource=github-tags versioning=python depName=pypa/installer
-  python_installer_version: 0.7.0
+  python_installer_version: 0.6.0
   python_installer_sha256: e1589201863a6b6f570ce2f9994febe54a8d9196e0cc54fd331cd7ffd728fb86
   python_installer_sha512: a509c6ea9d88b8527cce0428ca6109077820cb9aa352967a389012bac40f8ec04039ab73710f4fb32b32ed20affd520ce0ba16ba18d9d380ce0af1f51fe8e2c6
 
   # renovate: datasource=github-releases versioning=python depName=pallets/jinja
-  python_jinja2_version: 3.1.6
+  python_jinja2_version: 3.1.5
   python_jinja2_sha256: 2074b22a72caa65474902234b320d73463d6d4c223ee49f4b433495758356337
   python_jinja2_sha512: a3558f89d9d60676583bfc05e8987e9c486c2335affb71c9733b93040d56a2f97fb036974f1be1bf82c5b0767f482b2e795d58ea35456fcfe7e705f5e6b7a778
 
   # renovate: datasource=github-releases versioning=python depName=pallets/markupsafe
-  python_markupsafe_version: 3.0.3
+  python_markupsafe_version: 3.0.2
   python_markupsafe_sha256: f1d9d06c34515dd3ad210ec769da613057b536d11d6c039183b87757a883a254
   python_markupsafe_sha512: 2259dba158c37d06f87ef208603706f1d79b536124cec599ee634717d6061cccd89ee4bc8c35aa40ce9c728d595f2b802b6e68e9c7219c2f17135ed91854d777
 
   # renovate: datasource=github-releases versioning=python depName=pypa/packaging
-  python_packaging_version: 24.2
+  python_packaging_version: 24.1
   python_packaging_sha256: 15b6ba95eb12d8f99dcf215ea37cbea16812ef28358e8ef3d9344acb827acac1
   python_packaging_sha512: fb8419f81f0f817440c0b297fc6e963832e219e7a324bf4e0321f1e131a4822f17a19f2eb033a8d4adb622ccb16db59776ec44906a0c0b34f2877b59b9558c18
 
