@@ -167,7 +167,7 @@ vars:
   libffi_sha256: f3a3082a23b37c293a4fcd1053147b371f2ff91fa7ea1b2a52e335676bac82dc
   libffi_sha512: 76974a84e3aee6bbd646a6da2e641825ae0b791ca6efdc479b2d4cbcd3ad607df59cffcf5031ad5bd30822961a8c6de164ac8ae379d1804acd388b1975cdbf4d
 
-  # renovate datasource=github-tags extractVersion=^libnl(?<version>.*)$ depName=thom311/libnl
+  # renovate: datasource=github-tags extractVersion=^libnl(?<version>.*)$ depName=thom311/libnl
   libnl_version: 3_7_0
   libnl_sha256: 9fe43ccbeeea72c653bdcf8c93332583135cda46a79507bfd0a483bb57f65939
   libnl_sha512: 80fbbc079299c90afd2a5eda62e4d4f98bf4ef23958c3ce5101f4ed4d81d783af733213bb3bab15f218555d8460bc2394898f909f4ac024fc27281faec86a041

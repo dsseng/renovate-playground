@@ -89,7 +89,8 @@
         {
             "versioning": "regex:^(?<major>\\d+)\\.?(?<minor>\\d+)?\\.?(?<patch>\\d+)?$",
             "matchPackageNames": [
-                "git://git.kernel.org/pub/scm/utils/kernel/kmod/kmod.git"
+                "git://git.kernel.org/pub/scm/utils/kernel/kmod/kmod.git",
+                "gentoo/gpep517"
             ]
         },
         {
