@@ -56,61 +56,22 @@
             ]
         },
         {
-            "allowedVersions": "<= 6.17",
-            "matchPackageNames": [
-                "git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git"
-            ]
-        },
-        {
-            "versioning": "regex:^(?<major>\\d+)_(?<minor>\\d+)_?(?<patch>\\d+)?$",
-            "matchPackageNames": [
-                "ipmitool/ipmitool",
-                "git://sourceware.org/git/lvm2.git"
-            ]
-        },
-        {
-            "versioning": "regex:^(?<major>\\d{4})(?<minor>\\d{2})(?<patch>\\d{2})\\.?(?<build>\\d+)?$",
-            "matchPackageNames": [
-                "git://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git"
-            ]
-        },
-        {
             "versioning": "regex:^(?<major>\\d+)\\.(?<minor>\\d+)\\.?(?<patch>\\d+)?$",
             "matchPackageNames": [
-                "nvidia/open-gpu-kernel-modules",
-                "dosfstools/dosfstools",
-                "git://git.savannah.gnu.org/grub.git",
-                "https://pagure.io/libaio.git",
-                "rpm-software-management/popt",
-                "git://git.liburcu.org/userspace-rcu.git",
-                "madler/pigz"
+                "u-boot/u-boot",
+                "ARM-software/arm-trusted-firmware"
             ]
         },
         {
-            "versioning": "regex:^(?<major>\\d+)\\.?(?<minor>\\d+)?\\.?(?<patch>\\d+)?$",
+            "versioning": "regex:^\\d+\\.(?<major>\\d{4})(?<minor>\\d{2})(?<patch>\\d{2})$",
             "matchPackageNames": [
-                "benhoyt/inih",
-                "systemd/systemd",
-                "tenstorrent/tt-kmd"
+                "raspberrypi/firmware"
             ]
         },
         {
-            "versioning": "regex:^(?<major>\\d+)\\.(?<minor>\\d+)\\.?(?<patch>\\d+)?\\.?(?<build>\\d+)?$",
+            "versioning": "regex:^stable_(?<major>\\d{4})(?<minor>\\d{2})(?<patch>\\d{2})$",
             "matchPackageNames": [
-                "git://repo.or.cz/socat.git",
-                "json-c/json-c"
-            ]
-        },
-        {
-            "versioning": "regex:^(?<major>\\d+)\\.(?<minor>\\d+)\\.?(?<patch>[0-9]{1}[0-8]{0,1})?$",
-            "matchPackageNames": [
-                "openzfs/zfs"
-            ]
-        },
-        {
-            "versioning": "regex:^v(?<major>\\d+)\\.(?<minor>\\d+)\\.?(?<patch>\\d+)?\\.?-flannel(?<build>\\d+)?$",
-            "matchPackageNames": [
-                "flannel-io/cni-plugin"
+                "raspberrypi/linux"
             ]
         }
     ],
